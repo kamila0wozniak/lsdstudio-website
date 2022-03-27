@@ -1,0 +1,28 @@
+.background {
+    background-color: #131515;
+    color:grey;
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.section {
+    width: 33.3%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.section:hover {
+    color:#f2f2f2;
+    background-color: grey;
+}

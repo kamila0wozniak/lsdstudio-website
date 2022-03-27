@@ -3,8 +3,8 @@ body {
   margin:0;
   padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
-  color: #141414;
-  background-color: #F2f2f2;
+  color: #f2f2f2;
+  background-color: #131515;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,5 +13,7 @@ code {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-
+p {
+  color: #3D3D3D;
+}
 

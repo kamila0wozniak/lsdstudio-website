@@ -1,32 +1,28 @@
 .footer {
+    background-color: #131515;
+    color:#f2f2f2;
     width: 100%;
-    background: #f2f2f2 url(../img/wave-haikei.svg) bottom center no-repeat;
-    color:#6869ac;
+    height: 30%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-content: space-between;
-    align-items: center;padding-bottom: 6%;
+    align-content: center;
+    align-items: center;
 }
 
 .footerGlassEffect {
-
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-content: space-between;
     align-items: center;
-
-    background: rgba(255,255,255,0.4);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255,255,255,0.2);width: 90%;
-
+    width: 96%;
 }
 
 .footerHeader {
-    padding-bottom: 12px;
+    padding: 12px 0;
 }
 
 .footerRow {
