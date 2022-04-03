@@ -5,6 +5,7 @@ import Header from "./Header"
 import HomePageFirstSection from "./HomePageFirstSection";
 import HomePageSecondSection from "./HomePageSecondSection";
 import HomePageThirdSection from "./HomePageThirdSection";
+import Awards from "./Awards";
 
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
                     <HomePageFirstSection />
                     <HomePageSecondSection />
                     <HomePageThirdSection />
+                    <Awards/>
                 </div>
             <Footer/>
         </div>

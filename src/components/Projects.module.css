@@ -1,0 +1,90 @@
+.projectSection {
+    display:block;
+}
+
+.blankArea {
+
+    width:100%;
+    height: 450px;
+    margin-top:76px;
+    background-color: #f2f2f2;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: flex-end;
+}
+.blankAreaLetters {
+    color: #f9f9f9;
+    font-stretch: ultra-expanded;
+    font-size: 250px;
+    line-height: 250px;
+    text-transform: uppercase;
+}
+
+.linksArea {
+    width:100%;
+    height: 30px;
+    background-color: #f2f2f2;
+    font-size: 15px;
+
+    padding-left: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.linksAreaWidth {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    align-items: flex-start;
+}
+
+a {
+    text-transform: uppercase;
+    padding-right: 50px;
+}
+
+.projectsArea {
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-bottom:50px;
+}
+
+.projectBox {
+    background-color: #3D3D3D;
+    width: 24.6%;
+    height: 400px;
+    margin-bottom: 9px;
+    color: transparent;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
+
+.projectBox:hover {
+    color:#f2f2f2;
+    background-color: grey;
+}

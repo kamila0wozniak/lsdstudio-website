@@ -1,5 +1,5 @@
 import styles from'./App.css';
-import Nagrody from "./components/Nagrody";
+import Awards from "./components/Awards";
 import Blog from "./components/Blog";
 import Uslugi from "./components/Uslugi";
 import Projects from "./components/Projects";
@@ -27,7 +27,7 @@ function App() {
                   <Link to="/uslugi">uslugi</Link>
                 </li>
                 <li>
-                  <Link to="/nagrody">nagrody</Link>
+                  <Link to="/awards">nagrody</Link>
                 </li>
                 <li>
                   <Link to="/blog">blog</Link>
@@ -38,7 +38,7 @@ function App() {
             <Routes>
               <Route path="/projects" element={<Projects />}/>
               <Route path="/uslugi" element={<Uslugi />}/>
-              <Route path="/nagrody" element={<Nagrody />}/>
+              <Route path="/awards" element={<Awards />}/>
               <Route path="/blog" element={<Blog />}/>
               <Route path="/" element={<HomePage />}/>
             </Routes>
