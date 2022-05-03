@@ -7,7 +7,7 @@
 }
 
 nav {
-    background-color: #131515;
+  background-color: #131515;
   position: fixed;
   top: 0;
   width: 100%;
@@ -55,6 +55,7 @@ li {
 
 li a {
   text-decoration:none;
+  text-transform: lowercase;
   color: #f2f2f2;
 }
 

@@ -16,34 +16,46 @@
     width:100%;
     color: #131515;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
     align-items: center;
+    padding:12%;
 }
 
 .textSection {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-content: flex-start;
     align-items: flex-start;
     height: 100vh;
-    width:50%;
-    padding: 3% 20% 3% 3%;
+    width: 60%;
 
 }
 
-.button {
-    height: 48px;
-    width:260px;
-    color: #131515;
-    border: 1px solid #131515;
-    animation: pulse-animation 3s infinite;
-    border-radius: 0;
+.cube {
+    padding:0 3%;
+}
 
+h4 {
+    text-transform: uppercase;
+}
+
+p {
+    color: #131515;
+}
+
+.buttonSection {
+    width: 60%;
+    position:relative;
+}
+
+Button{
+    position:absolute;
+    right:0;
 }
 
 @-webkit-keyframes pulse-animation {
@@ -74,20 +86,8 @@
     background-color: #131515;
 }
 
-.picSection {
-    width:50%;
-    height: 100%;
-    background-color: black;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
-    transition: all .2s ease-in-out;
-
-}
 
 .picSection:hover {
     transform: scale(1.02);
 
-}
-
-.pColour {
-    color: #3D3D3D;
 }

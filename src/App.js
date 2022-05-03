@@ -4,7 +4,8 @@ import Blog from "./components/Blog";
 import Uslugi from "./components/Uslugi";
 import Projects from "./components/Projects";
 import HomePage from "./components/HomePage";
-import logo from './img/logo.jpg';
+import Contact from "./components/Contact";
+import x from './img/x.png';
 import {BrowserRouter as Router, Link, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
         <Router>
           <div>
             <nav>
-              <img src={logo} alt="Logo" className={styles.logoNavbar}/>
+              <img src={x} alt="Logo" className={styles.x}/>
               <ul>
                 <li>
                   <Link to="/">home</Link>
@@ -24,18 +25,23 @@ function App() {
                   <Link to="/projects">projekty</Link>
                 </li>
                 <li>
-                  <Link to="/uslugi">uslugi</Link>
+                  <Link to="/uslugi">o nas</Link>
                 </li>
                 <li>
-                  <Link to="/awards">nagrody</Link>
+                  <Link to="/awards">kariera</Link>
                 </li>
                 <li>
                   <Link to="/blog">blog</Link>
+                </li>
+                <li>
+                  <Link to="/contact">kontakt</Link>
                 </li>
               </ul>
             </nav>
 
             <Routes>
+
+              <Route path="/contact" element={<Contact />}/>
               <Route path="/projects" element={<Projects />}/>
               <Route path="/uslugi" element={<Uslugi />}/>
               <Route path="/awards" element={<Awards />}/>

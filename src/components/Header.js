@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../img/logoClear.svg";
+import x from "../img/x.png";
 import styles from "./Header.module.css";
 
 export default function Header() {
@@ -7,10 +7,9 @@ export default function Header() {
         <div className={styles.header}>
             <div className={styles.headerArragement}>
                 <div className={styles.textBox}>
-                    <h1>lsd studio</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer consequat leo ut ornare ultrices. Vivamus lacinia tortor mauris, sit amet interdum mi congue eget. Morbi dictum ipsum purus, sit amet feugiat est sagittis vel. Morbi euismod efficitur justo, nec lobortis mauris pharetra vel. Integer eu nisl metus. Nunc lorem velit, dapibus at quam non, facilisis faucibus velit.</p>
-                </div>
-                <img src={logo} alt="Logo" className={styles.headerLogo}/>
+                    <h1>Od ponad 10 lat<br /> jesteśmy solidnym wsparciem <br /> dla wielu polskich i zagranicznych marek.</h1>
+                 </div>
+                <img src={x} alt="Logo" className={styles.x}/>
             </div>
 
         </div>
