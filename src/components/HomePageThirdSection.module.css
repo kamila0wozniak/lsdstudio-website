@@ -1,7 +1,59 @@
 .background {
-    padding: 3% 3% 3% 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
 }
 
-.pColour {
-    color: #3D3D3D;
+.section {
+    width:50%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.hugeTextSection {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.hugeTextParagraph {
+    font-size: 100px;
+}
+
+.textSection {
+    padding:3% 6%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: flex-end;
+}
+
+h5 {
+    text-transform: lowercase;
+}
+
+h5::first-letter{
+    text-transform: uppercase;
+}
+
+.paragraph {
+    text-align:right;
 }

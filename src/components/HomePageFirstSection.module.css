@@ -40,12 +40,21 @@
     padding:0 3%;
 }
 
-h4 {
+h5 {
     text-transform: uppercase;
+}
+
+h4 {
+    font-size:18px;
+}
+
+h5 {
+    font-size:18px;
 }
 
 p {
     color: #131515;
+    font-size:16px;
 }
 
 .buttonSection {
@@ -53,7 +62,8 @@ p {
     position:relative;
 }
 
-Button{
+.button {
+    border: 1px solid #131515;
     position:absolute;
     right:0;
 }
