@@ -1,16 +1,17 @@
+@font-face {
+  font-family: 'SoinsSansProLight';
+  src: local('SoinsSansProLight'), url('./fonts/Stawix - SoinSansPro-Light.otf') format('opentype');
+  font-size: small;
+}
+
 body {
   background-attachment: fixed;
   margin:0;
   padding: 0;
-  font-family: 'Roboto Condensed', sans-serif;
   color: #f2f2f2;
   background-color: #131515;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: 'Roboto Condensed', sans-serif;
 }
 
 p {
